@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <!-- Choose between viewing stores, personal orders, or logout -->
+    <form class="storeselectform">
+        <p>Please select a store:</p>
+        <input type="radio" id="1" name="store" value="ComputerStore" onclick="OnSubmitForm()">
+        <label for="ComputerStore">ComputerStore</label><br>
+        <input type="radio" id="2" name="store" value="PenStore" onclick="OnSubmitForm()">
+        <label for="ComputerStore">PenStore</label><br>
+        <input type="radio" id="3" name="store" value="MusicStore" onclick="OnSubmitForm()">
+        <label for="ComputerStore">MusicStore</label>
+    </form>
+
+    <div class="listofproductsdiv">
+
+    </div>
+    <div class="submitdiv"></div>
+
+
+    <script src="../js/storeselect.js"></script>
+</body>
+</html>

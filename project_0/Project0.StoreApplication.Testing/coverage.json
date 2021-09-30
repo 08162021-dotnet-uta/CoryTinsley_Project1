@@ -1,0 +1,87 @@
+{
+  "Project0.StoreApplication.Domain.dll": {
+    "/home/clypto/revature/training_code/projects/project_0/Project0.StoreApplication.Domain/Models/Order.cs": {
+      "Project0.StoreApplication.Domain.Models.Order": {
+        "Project0.StoreApplication.Domain.Models.Customer Project0.StoreApplication.Domain.Models.Order::get_Customer()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "Project0.StoreApplication.Domain.Models.Product Project0.StoreApplication.Domain.Models.Order::get_Product()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Project0.StoreApplication.Domain.Models.Store Project0.StoreApplication.Domain.Models.Order::get_Store()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/clypto/revature/training_code/projects/project_0/Project0.StoreApplication.Domain/Models/Store.cs": {
+      "Project0.StoreApplication.Domain.Models.Store": {
+        "System.String Project0.StoreApplication.Domain.Models.Store::get_Name()": {
+          "Lines": {
+            "8": 3
+          },
+          "Branches": []
+        },
+        "System.String Project0.StoreApplication.Domain.Models.Store::ToString()": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": [
+            {
+              "Line": 12,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 12,
+              "Offset": 8,
+              "EndOffset": 24,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Project0.StoreApplication.Storage.dll": {
+    "/home/clypto/revature/training_code/projects/project_0/Project0.StoreApplication.Storage/Repositories/StoreRepository.cs": {
+      "Project0.StoreApplication.Storage.StoreRepository": {
+        "System.Collections.Generic.List`1<Project0.StoreApplication.Domain.Models.Store> Project0.StoreApplication.Storage.StoreRepository::get_Stores()": {
+          "Lines": {
+            "10": 2
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Storage.StoreRepository::.ctor()": {
+          "Lines": {
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "22": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
