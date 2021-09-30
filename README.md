@@ -1,2 +1,2 @@
-# CoryTinsley_Project2
+# CoryTinsley_Project1
 Repo made for portfolio
